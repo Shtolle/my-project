@@ -2,12 +2,8 @@ import React, { useState } from "react";
 
 import { NavigationContainer } from "@react-navigation/native";
 import AuthNavigator from "./app/navigation/AuthNavigator";
-import NavigationTheme from "./app/navigation/NavigationTheme";
 import AppNavigator from "./app/navigation/AppNavigator";
-import useLocation from "./app/hooks/useLocation";
 import OfflineNotice from "./app/components/OfflineNotice";
-import LoginScreen from "./app/screens/LoginScreen";
-import WelcomeScreen from "./app/screens/WelcomeScreen";
 import AuthContext from "./app/auth/context";
 import authStorage from "./app/auth/storage";
 import AppLoading from "expo-app-loading";
