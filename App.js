@@ -9,7 +9,7 @@ import authStorage from "./app/auth/storage";
 import AppLoading from "expo-app-loading";
 import { navigationRef } from "./app/navigation/rootNavigation";
 
-//Starting my Git journey
+//LESSGO
 
 export default function App() {
   const [user, setUser] = useState();
