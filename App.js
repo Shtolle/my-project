@@ -9,7 +9,9 @@ import authStorage from "./app/auth/storage";
 import AppLoading from "expo-app-loading";
 import { navigationRef } from "./app/navigation/rootNavigation";
 
-//Testing QR
+
+//LESSGO pleas
+
 
 export default function App() {
   const [user, setUser] = useState();
