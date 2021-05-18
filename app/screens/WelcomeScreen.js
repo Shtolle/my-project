@@ -1,10 +1,8 @@
 import React from "react";
 import { ImageBackground, StyleSheet, Image, Text, View } from "react-native";
 import AppButton from "../components/AppButton";
-import { Navigation } from "@react-navigation/native";
 import routes from "../navigation/routes";
 
-import colors from "../config/colors";
 export default function WelcomeScreen({ navigation }) {
   return (
     <View style={{ flex: 1 }}>

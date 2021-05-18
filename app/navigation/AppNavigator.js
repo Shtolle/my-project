@@ -7,7 +7,6 @@ import { View, StyleSheet } from "react-native";
 import ListingEditScreen from "../screens/ListingEditScreen";
 import AccountNavigator from "../navigation/AccountNavigator";
 import FeedNavigator from "./FeedNavigator";
-import navigation from "./rootNavigation";
 import useNotifications from "../hooks/useNotifications";
 
 const Tab = createBottomTabNavigator();
